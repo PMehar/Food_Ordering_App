@@ -44,6 +44,8 @@ Footer
  -Address
  -Contact
 
+ Just because we write reusable component restaurantCards We were able to pass dynamic Props Inside that  (we created a reusable cards)
+
 # Lets get hooked
 Two types of Export/Import
   - default export/import 
