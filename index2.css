@@ -24,7 +24,7 @@ li{
 .res_Container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .res-card {
@@ -43,6 +43,11 @@ li{
 .img_1{
     height: 9rem;
     width: 13rem;
+}
+
+.filter-btn{
+    margin: 1rem;
+    cursor: pointer;
 }
 
 
