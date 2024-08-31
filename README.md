@@ -63,6 +63,10 @@ Two types of Export/Import
       whenever state variable updates react will re-render the components
   -useEffect()
 
+# 2 Types of Routing in Web Apps
+ - Client side routing
+ - Server side routing
+
 
 # Redux Toolkit
  - Install @reduxjs/toolkit and react-redux
