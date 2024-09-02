@@ -72,4 +72,11 @@ li{
     display: flex;
 }
 
+.user-card{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid red;
+    width: 15rem;
+}
+
 
