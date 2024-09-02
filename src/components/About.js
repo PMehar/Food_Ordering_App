@@ -7,17 +7,13 @@ class About extends React.Component{
     super(props);
   }
 
-  componentDidMount(){
-    
-  }
-   
   render(){
     
     return (
       <div> 
         <h1>About Page</h1> 
-        <UserClass name = {"first"}/>
-        {/* <User name = {"second]"}/> */}
+        {/* <UserClass name = {"first"}/> */}
+        <User name = {"second"}/>
       </div>
       
     ); 

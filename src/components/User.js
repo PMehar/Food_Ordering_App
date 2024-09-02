@@ -2,15 +2,20 @@ import { useState, useEffect } from "react";
 
 const User = ({name}) =>{
    useEffect(()=>{
-    fetchData();
-   }, [])
-    
-   const fetchData = async()=>{
-    const data = await fetch("https://api.github.com/users/akshaymarch7");
-    const json = await data.json();
+    const timer = setInterval(()=>{
+        console.log("NAMASTE REACT OP");
+    }, 1000);
 
-    console.log(json);
-   }
+    console.log("UseEffect called");
+
+    return()=>{
+        clearInterval(timer);
+        console.log("UseEffect Return called")
+    };
+   }, []);
+
+   console.log("Render called");
+    
    
     return(
         <div className="user-card">
